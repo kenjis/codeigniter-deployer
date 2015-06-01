@@ -2,6 +2,8 @@
 
 A Deployment Tool for [CodeIgniter](https://github.com/bcit-ci/CodeIgniter) 3.0.
 
+You can deploy CodeIgniter with one command.
+
 This is based on [Deployer](http://deployer.org/) 3.0.
 
 ## Folder Structure
