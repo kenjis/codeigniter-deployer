@@ -10,10 +10,10 @@ This is based on [Deployer](http://deployer.org/) 3.0.
 
 ```
 codeigniter/
-    deploy/
-    ├── deploy.php ... config file for Deployer
-    ├── deploy.sh  ... script to deploy
-    └── logs/
+└── deploy/
+     ├── deploy.php ... config file for Deployer
+     ├── deploy.sh  ... script to deploy
+     └── logs/
 ```
 
 ## Requirements
@@ -121,7 +121,7 @@ username   ALL=(ALL) NOPASSWD: /usr/bin/setfacl
 
 ~~~
 $ cd /path/to/codeigniter/
-$ cd deploy
+$ cd deploy/
 $ sh deploy.sh
 ~~~
 
