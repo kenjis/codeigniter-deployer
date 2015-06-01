@@ -29,7 +29,7 @@ Install this project with Composer:
 
 ~~~
 $ cd /path/to/codeigniter/
-$ composer require kenjis/codeigniter-deployer:1.0.x@dev
+$ composer require kenjis/codeigniter-deployer:1.0.x@dev --dev
 ~~~
 
 Install `deploy` folder to your CodeIgniter application folder:
