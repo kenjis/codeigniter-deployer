@@ -89,7 +89,7 @@ your-codeigniter-app/
      └── 20150529181638/
 ~~~
 
-Each deployment is installed in `release/YYYYMMDDHHMMSS` folder.
+Each deployment is installed in `releases/YYYYMMDDHHMMSS` folder.
 
 The current release is `your-codeigniter-app/current` folder, and it is a symbolic link to `releases/20150529181638` folder.
 
