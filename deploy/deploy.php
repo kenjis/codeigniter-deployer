@@ -35,7 +35,7 @@ set('shared_dirs', ['application/cache', 'application/logs']);
 //    run("cd {{release_path}} && $composer install --verbose --prefer-dist --no-progress --no-interaction");
 //})->desc('Installing vendors including require-dev');
 
-//task('phpunit', function () {
+//task('deploy:phpunit', function () {
 //    try {
 //        run("cd {{release_path}}/application/tests && php ../../vendor/bin/phpunit");
 //    } catch (\RuntimeException $e) {
@@ -48,7 +48,7 @@ set('shared_dirs', ['application/cache', 'application/logs']);
 //    }
 //})->desc('Run PHPUnit');
 
-//task('security-checker', function () {
+//task('deploy:security-checker', function () {
 //     run("cd {{release_path}} && vendor/bin/security-checker security:check composer.lock");
 //})->desc('Run SensioLabs Security Checker');
 
@@ -57,8 +57,8 @@ task('deploy', [
     'deploy:release',
     'deploy:update_code',
 //    'deploy:vendors-dev',
-//    'phpunit',
-//    'security-checker',
+//    'deploy:phpunit',
+//    'deploy:security-checker',
     'deploy:shared',
     'deploy:writable',
     'deploy:vendors',
