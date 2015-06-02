@@ -22,6 +22,7 @@ codeigniter/
 * Composer
 * Git
 * SSH
+* Shell
 
 ## Installation
 
