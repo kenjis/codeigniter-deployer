@@ -1,5 +1,7 @@
 # CodeIgniter Deployer
 
+[![Latest Stable Version](https://poser.pugx.org/kenjis/codeigniter-deployer/v/stable)](https://packagist.org/packages/kenjis/codeigniter-deployer) [![Total Downloads](https://poser.pugx.org/kenjis/codeigniter-deployer/downloads)](https://packagist.org/packages/kenjis/codeigniter-deployer) [![Latest Unstable Version](https://poser.pugx.org/kenjis/codeigniter-deployer/v/unstable)](https://packagist.org/packages/kenjis/codeigniter-deployer) [![License](https://poser.pugx.org/kenjis/codeigniter-deployer/license)](https://packagist.org/packages/kenjis/codeigniter-deployer)
+
 A Deployment Tool for [CodeIgniter](https://github.com/bcit-ci/CodeIgniter) 3.0.
 
 You can deploy CodeIgniter with one command.
