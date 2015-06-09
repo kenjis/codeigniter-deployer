@@ -8,7 +8,7 @@
  * @link       https://github.com/kenjis/codeigniter-deployer
  */
 
-require 'recipe/common.php';
+require 'recipe/codeigniter.php';
 
 // Your production server
 server('prod', 'your.server.example.com', 22)
@@ -20,9 +20,6 @@ server('prod', 'your.server.example.com', 22)
 
 // Your Git repository
 set('repository', 'git@github.com:org/your-codeigniter-app.git');
-
-set('writable_dirs', ['application/cache', 'application/logs']);
-set('shared_dirs', ['application/cache', 'application/logs']);
 
 //task('deploy:vendors-dev', function () {
 //    if (commandExist('composer')) {
@@ -65,5 +62,3 @@ task('deploy', [
     'deploy:symlink',
     'cleanup',
 ])->desc('Deploy your project');
-
-after('deploy', 'success');
