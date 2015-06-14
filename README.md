@@ -28,8 +28,6 @@ codeigniter/
 
 ## Installation
 
-> **Note:** Now phpseclib does not have stable release for Deployer, so to install this project, we have to add `"phpseclib/phpseclib": "dev-master#2c96af214bf1b5e29b707249108504b4e0041a21"` to `require` section in our project `composer.json` file.
-
 Install this project with Composer:
 
 ~~~
@@ -118,6 +116,12 @@ Here is an example of configuration:
 Defaults:username !requiretty
 
 username   ALL=(ALL) NOPASSWD: /usr/bin/setfacl
+~~~
+
+If you don't need `sudo` for your deployment, you can set in `deploy/deployer.php`.
+
+~~~php
+set('writable_use_sudo', false);
 ~~~
 
 ## How to Deploy
