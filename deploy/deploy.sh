@@ -11,4 +11,4 @@ cd `dirname $0`
 
 date=`date +"%Y%m%d%H%M%S"`
 log="logs/production-$date.log"
-php ../vendor/bin/dep deploy -vvv production | tee $log
+php ../vendor/bin/dep deploy -vvv --ansi production 2>&1 | tee $log
